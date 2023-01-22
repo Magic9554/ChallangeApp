@@ -31,7 +31,6 @@ else if (name == "Ewa" && age4 == 33)
 
 string name5 = "Ewa";
 int age5 = 33;
-
 if (name5 == "Ewa" && age5 < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
@@ -40,10 +39,10 @@ else
 {
     Console.WriteLine("Ewa, lat 33");
 }
+
 string name6 = "Ewa";
 string sex6 = "Kobieta";
 int age6 = 33;
-
 if (name6 == "Ewa" && age6 < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
