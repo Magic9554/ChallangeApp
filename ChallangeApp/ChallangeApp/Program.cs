@@ -30,14 +30,14 @@ else if (name == "Ewa" && age4 == 33)
 }
 if (sex == "mężczyzna")
 {
-    if (age4 < 18)
-    {
-        Console.WriteLine("Niepełnoletni mężczyzna");
-    }
-    else
-    {
-        Console.WriteLine("Pełnoletni mężczyzna");
-    }
+if (age4 < 18)
+{
+    Console.WriteLine("Niepełnoletni mężczyzna");
+}
+else
+{
+    Console.WriteLine("Pełnoletni mężczyzna");
+}
 }
 
 string name5 = "Ewa";
