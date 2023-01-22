@@ -14,10 +14,12 @@ Console.WriteLine(resoult);
 Console.WriteLine(resoult2); 
 Console.WriteLine(resoult3);
 
-string name4 = "Ewa";
+string name0 = "Inna Wersja Kodu:";
+string resoult0 = name0;
+Console.WriteLine(resoult0);
+
 string sex = "kobieta";
 int age4 = 27;
-
 if (sex == "kobieta" && age4 < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
@@ -39,7 +41,6 @@ if (sex == "mężczyzna")
 }
 
 string name5 = "Ewa";
-string sex5 = "kobieta";
 int age5 = 33;
 
 if (name5 == "Ewa" && age5 < 30)
@@ -52,7 +53,6 @@ else
 }
 string name6 = "Ewa";
 string sex6 = "kobieta";
-string sex7 = "Mezczyzna";
 int age6 = 33;
 
 if (name6 == "Ewa" && age6 < 30)
