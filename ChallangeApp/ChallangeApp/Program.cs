@@ -2,10 +2,10 @@
 // "Ewa, lat 33"
 // "Niepelnoletni Mezczyzna"
 
-string name = "Kobieta ponizej";
+string name = "Kobieta ponizej ";
 string name2 = "Ewa,";
-string age = " 30 lat";
-string age2 = " lat 33";
+string age = "30 lat";
+string age2 = "lat 33";
 string name3 = "Niepelnoletni Mezczyzna";
 string resoult = name + age;
 string resoult2 = name2 + age2;
@@ -18,26 +18,15 @@ string name0 = "Inna Wersja Kodu:";
 string resoult0 = name0;
 Console.WriteLine(resoult0);
 
-string sex = "kobieta";
+string sex = "Kobieta";
 int age4 = 27;
-if (sex == "kobieta" && age4 < 30)
+if (sex == "Kobieta" && age4 < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
 else if (name == "Ewa" && age4 == 33)
 {
     Console.WriteLine("Ewa, lat 33");
-}
-if (sex == "mężczyzna")
-{
-if (age4 < 18)
-{
-    Console.WriteLine("Niepełnoletni mężczyzna");
-}
-else
-{
-    Console.WriteLine("Pełnoletni mężczyzna");
-}
 }
 
 string name5 = "Ewa";
@@ -52,7 +41,7 @@ else
     Console.WriteLine("Ewa, lat 33");
 }
 string name6 = "Ewa";
-string sex6 = "kobieta";
+string sex6 = "Kobieta";
 int age6 = 33;
 
 if (name6 == "Ewa" && age6 < 30)
